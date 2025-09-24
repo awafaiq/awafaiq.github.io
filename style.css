@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+html {
+  height: 100%;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -12,43 +16,43 @@ h2 {
   animation: neon-glow 15s infinite alternate;
 }
 @keyframes neon-glow {
-  20% {
+  0% {
     text-shadow: 0 0 5px #0d3b66, 0 0 10px #0d3b66, 0 0 15px #0d3b66,
       0 0 20px #0d3b66;
     color: white;
   }
 
-  30% {
+  15% {
     text-shadow: 0 0 5px #046380, 0 0 10px #046380, 0 0 15px #046380,
       0 0 20px #046380;
     color: white;
   }
 
-  40% {
+  30% {
     text-shadow: 0 0 5px #9f2042, 0 0 10px #9f2042, 0 0 15px #9f2042,
       0 0 20px #9f2042;
     color: white;
   }
 
-  50% {
+  45% {
     text-shadow: 0 0 5px #e55934, 0 0 10px #e55934, 0 0 15px #e55934,
       0 0 20px #e55934;
     color: white;
   }
 
-  40% {
+  60% {
     text-shadow: 0 0 5px #f4d35e, 0 0 10px #f4d35e, 0 0 25px #f4d35e,
       0 0 20px #f4d35e;
     color: white;
   }
 
-  30% {
+  75% {
     text-shadow: 0 0 5px #faf0ca, 0 0 10px #faf0ca, 0 0 15px #faf0ca,
       0 0 20px #faf0ca;
     color: white;
   }
 
-  20% {
+  90% {
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff,
       0 0 20px #ffffff;
     color: white;
@@ -90,6 +94,7 @@ main {
   padding: 25px;
   display: flex;
   justify-content: space-around;
+  flex-grow: 1;
 }
 img {
   display: block;
