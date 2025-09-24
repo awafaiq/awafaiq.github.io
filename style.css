@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+html {
+  height: 100%;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -64,8 +68,6 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
 nav ul li {
@@ -86,12 +88,16 @@ body {
   padding: 0;
   height: auto;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 main {
   background-color: #0a0817;
   padding: 25px;
   display: flex;
   justify-content: space-around;
+  flex-grow: 1;
 }
 img {
   display: block;
@@ -103,7 +109,6 @@ figcaption {
   text-align: center;
 }
 footer {
-  margin-top: auto;
   background-color: #262336;
   color: white;
   padding: 10px;
@@ -114,7 +119,3 @@ footer {
 .srcImageTooBig {
   width: 50%;
 }
-
-
-
-
