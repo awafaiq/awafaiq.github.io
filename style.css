@@ -70,7 +70,6 @@ header {
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 100%;
 }
 
 nav ul li {
@@ -118,4 +117,5 @@ footer {
 .srcImageTooBig {
   width: 50%;
 }
+
 
