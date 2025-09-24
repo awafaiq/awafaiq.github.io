@@ -68,6 +68,9 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 nav ul li {
@@ -94,7 +97,6 @@ main {
   padding: 25px;
   display: flex;
   justify-content: space-around;
-  flex-grow: 1;
 }
 img {
   display: block;
@@ -116,3 +118,4 @@ footer {
 .srcImageTooBig {
   width: 50%;
 }
+
