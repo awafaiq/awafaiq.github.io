@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     } catch (error) {
       console.error("Error loading content:", error);
-      contentDiv.innerHTML = "Sorry, the content could not be loaded.";
+      contentDiv.innerHTML = "Sorry, the content couldn't be loaded.";
     }
   };
 
